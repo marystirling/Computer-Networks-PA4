@@ -4,9 +4,9 @@ For this assignement, we are measuring the computing the shortest path using Dik
 
 For the worker nodes, the following containers are placed:
 
-  CompNW-worker1: msb_router1 
+  \t CompNW-worker1: msb_router1 
 
-  CompNW-worker2: msb_router2  
+  \t CompNW-worker2: msb_router2  
   
   CompNW-worker3: msb_router3  
   
