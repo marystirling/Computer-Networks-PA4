@@ -1,0 +1,178 @@
+[
+  {
+    "Name": "msb_client", 
+    "Host": "compnw-worker6", 
+    "Port": 30004,
+    "Container": "msb_client.1.2hz1nsuxjktt2r0shb5lohxzk", 
+    "ContainerIPs": [
+      {
+        "NetworkID": "emls2c0chukix0zug4q99jt24", 
+        "Addr": "10.0.10.158",
+        "Network_Name": "overlay_nw1"
+      }, 
+      {
+        "NetworkID": "i27xgtd5gxrj1bl27cs04mmxl", 
+        "Addr": "10.0.11.244", 
+        "Network_Name": "overlay_nw2"
+      }, 
+      {
+        "NetworkID": "mwf04tvlv8r4x95jjw7hrfqss", 
+        "Addr": "10.0.12.254", 
+        "Network_Name": "overlay_nw3"
+      }
+    ]
+  }, 
+  {
+    "Name": "msb_router1", 
+    "Host": "compnw-worker1", 
+    "Port": 31010,
+    "Container": "msb_router1.1.k3ekxvwq4gemlzghi0aiint76", 
+    "ContainerIPs": [
+      {
+        "NetworkID": "e138ukhtp4xtkcq8u8l9v7t9v", 
+        "Addr": "10.0.0.124"
+      }, 
+      {
+        "NetworkID": "emls2c0chukix0zug4q99jt24", 
+        "Addr": "10.0.10.162", 
+        "Network_Name": "overlay_nw1"
+      }, 
+      {
+        "NetworkID": "ioazi1i6wiaa33xqef0m6refy", 
+        "Addr": "10.0.13.183", 
+        "Network_Name": "overlay_nw4"
+      }, 
+      {
+        "NetworkID": "tq6w3gvjqmt4l1ad75ng8b2r3", 
+        "Addr": "10.0.15.196", 
+        "Network_Name": "overlay_nw6"
+      }
+    ]
+  }, 
+  {
+    "Name": "msb_router2", 
+    "Host": "compnw-worker2", 
+    "Port": 31011,
+    "Container": "msb_router2.1.ouexlo2orlix6hlxmm30g57gf", 
+    "ContainerIPs": [
+      {
+        "NetworkID": "e138ukhtp4xtkcq8u8l9v7t9v", 
+        "Addr": "10.0.0.132"
+      }, 
+      {
+        "NetworkID": "i27xgtd5gxrj1bl27cs04mmxl", 
+        "Addr": "10.0.11.249", 
+        "Network_Name": "overlay_nw2"
+      }, 
+      {
+        "NetworkID": "ioazi1i6wiaa33xqef0m6refy", 
+        "Addr": "10.0.13.187", 
+        "Network_Name": "overlay_nw4"
+      }, 
+      {
+        "NetworkID": "y1hbkplum3l82ja682c825ym9", 
+        "Addr": "10.0.14.243",
+        "Network_Name": "overlay_nw5"
+      }, 
+      {
+        "NetworkID": "80zlm7yyeozgmh0c2aeq8pxjp", 
+        "Addr": "10.0.16.6", 
+        "Network_Name": "overlay_nw7"
+      }
+    ]
+  }, 
+  {
+    "Name": "msb_router3", 
+    "Host": "compnw-worker3", 
+    "Port": 31012,
+    "Container": "msb_router3.1.nwxbpjwn8dnno0zoagx1xayr9", 
+    "ContainerIPs": [
+      {
+        "NetworkID": "e138ukhtp4xtkcq8u8l9v7t9v", 
+        "Addr": "10.0.0.140"
+      }, 
+      {
+        "NetworkID": "mwf04tvlv8r4x95jjw7hrfqss", 
+        "Addr": "10.0.12.11", 
+        "Network_Name": "overlay_nw3"
+      }, 
+      {
+        "NetworkID": "y1hbkplum3l82ja682c825ym9", 
+        "Addr": "10.0.14.246",
+        "Network_Name": "overlay_nw5"
+      }, 
+      {
+        "NetworkID": "bk22srr3yodg8tt0i003arpwe", 
+        "Addr": "10.0.17.175", 
+        "Network_Name": "overlay_nw8"
+      }
+    ]
+  }, 
+  {
+    "Name": "msb_router4", 
+    "Host": "compnw-worker4", 
+    "Port": 31013,
+    "Container": "msb_router4.1.88tnc432hlz4pm72rgfrd8wo9", 
+    "ContainerIPs": [
+      {
+        "NetworkID": "e138ukhtp4xtkcq8u8l9v7t9v", 
+        "Addr": "10.0.0.149"
+      }, 
+      {
+        "NetworkID": "tq6w3gvjqmt4l1ad75ng8b2r3", 
+        "Addr": "10.0.15.199", 
+        "Network_Name": "overlay_nw6"
+      }, 
+      {
+        "NetworkID": "uau227dqjyjdeldw6o3k58e0l", 
+        "Addr": "10.0.18.236", 
+        "Network_Name": "overlay_nw9"
+      }
+    ]
+  }, 
+  {
+    "Name": "msb_router5", 
+    "Host": "compnw-worker5", 
+    "Port": 31014,
+    "Container": "msb_router5.1.aj9mg58pdrq4kzebifwxga40z", 
+    "ContainerIPs": [
+      {
+        "NetworkID": "e138ukhtp4xtkcq8u8l9v7t9v", 
+        "Addr": "10.0.0.155"
+      }, 
+      {
+        "NetworkID": "bk22srr3yodg8tt0i003arpwe", 
+        "Addr": "10.0.17.178", 
+        "Network_Name": "overlay_nw8"
+      }, 
+      {
+        "NetworkID": "zhox5xvqzcyu0wmr07euc2w4h", 
+        "Addr": "10.0.19.208", 
+        "Network_Name": "overlay_nw10"
+      }
+    ]
+  }, 
+  {
+    "Name": "msb_server", 
+    "Host": "compnw-worker7", 
+    "Port": 30005,
+    "Container": "msb_server.1.b1s7bn1prok2huwbkjgaljgew", 
+    "ContainerIPs": [
+      {
+        "NetworkID": "80zlm7yyeozgmh0c2aeq8pxjp", 
+        "Addr": "10.0.16.10", 
+        "Network_Name": "overlay_nw7"
+      }, 
+      {
+        "NetworkID": "uau227dqjyjdeldw6o3k58e0l", 
+        "Addr": "10.0.18.240", 
+        "Network_Name": "overlay_nw9"
+      }, 
+      {
+        "NetworkID": "zhox5xvqzcyu0wmr07euc2w4h", 
+        "Addr": "10.0.19.210", 
+        "Network_Name": "overlay_nw10"
+      }
+    ]
+  }
+]
